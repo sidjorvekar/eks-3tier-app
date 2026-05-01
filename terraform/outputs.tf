@@ -10,5 +10,5 @@ output "cluster_name" {
 
 output "region" {
   description = "AWS region"
-  value       = "us-east-1" # Make sure this matches your provider.tf
+  value       = "eu-central-1" # Make sure this matches your provider.tf
 }

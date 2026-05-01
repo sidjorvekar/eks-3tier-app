@@ -9,5 +9,5 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1" # You can change this to us-east-2 or eu-central-1 if preferred
+  region = "eu-central-1" # You can change this to us-east-2 or eu-central-1 if preferred
 }
