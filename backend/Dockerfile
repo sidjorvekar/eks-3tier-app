@@ -1,7 +1,7 @@
 FROM node:18-slim
 WORKDIR /app
 COPY package*.json ./
-RUN npm install express pg
+RUN npm install express pg cors
 COPY . .
 EXPOSE 5000
 CMD ["node", "server.js"]
